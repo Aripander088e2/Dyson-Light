@@ -30,10 +30,10 @@ function clearSave() { //Doesn't work atm
 
 function loadDefaults() {
     //create planets
-    addPlanet(0, 11, 9, 3, 1);
-    addPlanet(0, 8, 5, 5, 2);
-    addPlanet(0, 12, 10, 2, 4);
-    addPlanet(0, 6, 6, 6, 7);
+    addPlanet(0, 11, 9, 7, 1);
+    addPlanet(0, 13, 11, 5, 2);
+    addPlanet(0, 18, 14, 5, 4);
+    addPlanet(0, 22, 20, 6, 7);
 
     data.systems[0].luminosity = 1;
     data.systems[0].distance = 0;
